@@ -36,7 +36,7 @@ h1{
     align-items: center;
 }
 .day{
-     font-size: 3em;        /* em= parent font size er 2 gun */
+    font-size: 3em;        /* em= parent font size er 2 gun */
     font-weight: 700;
     color: white;
     background-color: blue;
@@ -72,4 +72,30 @@ h1{
     .media-container{
         grid-template-columns: repeat(2,1fr);
     }      
+}
+/* responsive web design related style */
+.responsive-sec{
+    border:5px solid blue;
+    max-width: 1140px;
+    margin: 50px auto 0px;
+    font-size: 2em;
+    font-weight: 700;
+}
+.img-container{
+    display: flex;
+}
+.img-container div{
+    width: 50%;
+}
+.img-container img{
+    width: 100%;
+}
+@media screen and (max-width: 576px){
+    .img-container{
+        /* flex-direction: column; */
+        flex-direction: column-reverse;       
+    }
+    .img-container div{
+        width: 100%;
+    }
 }
