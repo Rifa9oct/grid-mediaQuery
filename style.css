@@ -1,0 +1,49 @@
+h1{
+    margin-bottom: 80px;
+    font-size: 50px;
+    color:red;
+}
+.container{ 
+    display: grid;
+    /* grid-template-columns: 200px 100px 200px 200px 150px ; */
+    /* grid-template-columns: repeat(3,1fr); */
+    /* grid-template-columns: repeat(2,1fr) 2fr; */
+    grid-template-columns: 200px 100px 200px;
+    justify-content: center;
+}
+.item{
+    border: 2px solid rgb(240, 221, 51);
+    font-size: 30px;
+    font-weight: 500;
+    background-color: coral;
+}
+/* Calender related style */
+.calender{
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: repeat(6,100px);    /*.date{ height: 50px;} */
+    row-gap: 30px;
+    column-gap: 30px;
+}
+.date{
+    font-size: 2em;
+    font-weight: 700;
+    background-color: aqua;
+    border-radius: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.day{
+     font-size: 3em;        /* em= parent font size er 2 gun */
+    font-weight: 700;
+    color: white;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* text-align: center; */
+    padding: 10px;
+    border-radius: 10px;   
+}
