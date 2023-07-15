@@ -104,3 +104,15 @@ h1{
         width: 100%;
     }
 }
+/* Flexible flex related style */
+.flexible-container{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.item{
+    border: 2px solid red;
+    border-radius: 10px;
+    height: 100px;
+    width: 100px;
+}
