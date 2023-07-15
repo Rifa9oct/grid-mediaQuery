@@ -159,3 +159,26 @@ h1{
         height: auto;
     }
 }
+/* grid box related style */
+.gride-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(3, 200px) 50px 50px;
+    gap: 20px;
+}
+.grid-box{
+    background-color: rgb(104, 98, 98);
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    padding: 10px;
+}
+#grid-box-1{
+   grid-row: span 5;
+}
+#grid-box-11, #grid-box-12{
+    grid-column: span 3;
+}
+#grid-box-6,#grid-box-7,#grid-box-9, #grid-box-10{
+    background-color: rgb(205, 36, 7);
+}
