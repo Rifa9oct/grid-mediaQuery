@@ -42,7 +42,7 @@ h1{
 }
 .day{
     font-size: 3em;        /* em= parent font size er 2 gun */
-    font-weight: 700;
+    font-weight: 700;      /* rem= root er 2 gun   (root html font-size: 16px) */
     color: white;
     background-color: blue;
     display: flex;
